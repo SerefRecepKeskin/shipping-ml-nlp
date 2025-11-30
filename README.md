@@ -5,16 +5,18 @@
 - [1. EDA Report (PDF)](reports_for_results/1_EDA_report.pdf)
 - [2. ML Modeling Report (PDF)](reports_for_results/2_ML_Modeling_report.pdf)
 - [3. NLP Processing Report (PDF)](reports_for_results/3_NLP_Processing_report.pdf)
+- [4. Coding Challenge Report (PDF)](reports_for_results/4_Coding.pdf)
 
 ---
 
 ## Project Overview
 
-This project contains three main analysis tasks:
+This project contains four main analysis tasks:
 
 1. **Exploratory Data Analysis (EDA)** - Dataset exploration and visualization
 2. **ML Modeling** - On-time delivery prediction using classification models
 3. **NLP Processing** - Product title matching and duplicate detection
+4. **Coding Challenge** - Monte Carlo simulations for battery life and bus waiting time
 
 ---
 
@@ -41,14 +43,17 @@ pip install -r requirements.txt
 ├── reports_for_results/           # Final analysis reports (PDF & DOCX)
 │   ├── 1_EDA_report.pdf
 │   ├── 2_ML_Modeling_report.pdf
-│   └── 3_NLP_Processing_report.pdf
+│   ├── 3_NLP_Processing_report.pdf
+│   └── 4_Coding.pdf
 ├── visualizations/                # Generated charts and graphs
 │   ├── 1_EDA_images/
 │   ├── 2_ML_Modeling_images/
-│   └── 3_NLP_Process_images/
+│   ├── 3_NLP_Process_images/
+│   └── 4_Coding_images/
 ├── 1_EDA.ipynb                    # Notebook for EDA analysis
 ├── 2_ML_Modeling.ipynb            # Notebook for ML modeling
-└── 3_NLP_Process.ipynb            # Notebook for NLP processing
+├── 3_NLP_Process.ipynb            # Notebook for NLP processing
+└── 4_Coding.ipynb                 # Notebook for coding challenge
 ```
 
 ---
@@ -75,6 +80,13 @@ pip install -r requirements.txt
 - Duplicate detection using similarity metrics
 - Product matching and grouping
 - See [3_NLP_Process.ipynb](3_NLP_Process.ipynb)
+
+### 4. Coding Challenge
+
+- Battery life Monte Carlo simulation
+- Bus waiting time probability analysis
+- Vectorized NumPy operations for performance
+- See [4_Coding.ipynb](4_Coding.ipynb)
 
 ---
 
