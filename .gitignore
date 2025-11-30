@@ -1,0 +1,28 @@
+# Screenshots
+*.png
+
+# macOS
+.DS_Store
+
+# Temporary files
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+
